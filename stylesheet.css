@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+header {
+    height: 50px;
+    background-color: rgba(100, 245, 255, 0.8);
+    padding-left: 50px;
+}
+
+.header-dark {
+    background-color: rgba(48, 116, 121, 0.8);
+}
+
+.header-menu {
+    float: left;
+}
+
+.header-menu a {
+    float: left;
+    display: block;
+    line-height: 50px;
+    padding: 0px 30px;
+}
+
+.header-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.header-right {
+    text-align: center;
+    float: right;
+    margin-right: 100px;
+}
+
+.fa .fa-bar {
+    width: 50px;
+    float: right;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 25px;
+    padding-right: 50px;
+}
+
+.header-right button {
+    background-color: transparent;
+    border: none;
+    overflow: hidden;
+    outline: none;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.header-right button:hover {
+    cursor: pointer;
+}
+
+.header-dropdown {
+    display: none;
+    background-color: rgba(100, 245, 255, 0.8);
+}
+
+.header-dropdown-display {
+    background-color: rgba(100, 245, 255, 0.8);
+    display: inline;
+    float: right;
+}
+
+.container {
+    width: 1500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.top-content {
+    padding-top: 20px;
+}
+
+.top-grid {
+    float: left;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
+.top-grid h1 {
+    font-size: 60px;
+}
+
+.top-logo {
+    float: right;
+}
+
+.top-logo img {
+    width: 500px;
+    height: 500px;
+}
+
+.body-content {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.body-content h1 {
+    font-size: 60px;
+}
